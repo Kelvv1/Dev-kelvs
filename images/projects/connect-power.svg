@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="cpBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F4225"/>
+      <stop offset="100%" stop-color="#146B3A"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="450" fill="#f4f6f5"/>
+
+  <!-- Browser frame -->
+  <rect x="25" y="25" width="550" height="400" rx="10" fill="#ffffff" filter="url(#shadow)" stroke="#e2e8e5"/>
+
+  <!-- Window Header -->
+  <path d="M 25 35 Q 25 25 35 25 L 565 25 Q 575 25 575 35 L 575 62 L 25 62 Z" fill="#ebf2ed"/>
+  <circle cx="45" cy="44" r="5" fill="#e11d2e"/>
+  <circle cx="61" cy="44" r="5" fill="#f4b400"/>
+  <circle cx="77" cy="44" r="5" fill="#0f9d58"/>
+  <rect x="100" y="34" width="320" height="20" rx="4" fill="#ffffff" stroke="#d5dfd8"/>
+  <text x="112" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5B6B60" font-weight="500">connect-power2.vercel.app</text>
+
+  <!-- App Header / Nav -->
+  <rect x="25" y="62" width="550" height="48" fill="#ffffff" stroke="#edf2ee"/>
+  <circle cx="52" cy="86" r="13" fill="#146B3A"/>
+  <path d="M52 77 L57 85 L53 85 L53 94 L47 87 L51 87 Z" fill="#ffffff"/>
+  <text x="74" y="86" font-family="'Poppins', sans-serif, system-ui" font-weight="800" font-size="14" fill="#111827">Connect <tspan fill="#146B3A">Power</tspan></text>
+  <text x="74" y="98" font-family="system-ui" font-size="8.5" fill="#5B6B60">Youth Empowerment Programme</text>
+  <rect x="465" y="74" width="95" height="24" rx="6" fill="#E9F5EC"/>
+  <text x="512" y="89" font-family="system-ui" font-weight="600" font-size="9.5" fill="#146B3A" text-anchor="middle">Admin Portal</text>
+
+  <!-- Hero Banner inside portal -->
+  <rect x="45" y="125" width="510" height="110" rx="8" fill="url(#cpBg)"/>
+  <text x="68" y="156" font-family="'Poppins', sans-serif" font-weight="800" font-size="18" fill="#ffffff">Youth Empowerment Grant Portal</text>
+  <text x="68" y="177" font-family="system-ui" font-size="11" fill="#D0E7D9">5-Stage Structured Application &amp; Automated Verification</text>
+  <rect x="68" y="195" width="130" height="26" rx="5" fill="#ffffff"/>
+  <text x="133" y="212" font-family="system-ui" font-weight="700" font-size="10.5" fill="#146B3A" text-anchor="middle">Start Application →</text>
+
+  <!-- Step indicators -->
+  <g transform="translate(45, 250)">
+    <!-- Step 1 -->
+    <rect x="0" y="0" width="118" height="52" rx="6" fill="#E9F5EC" stroke="#C5E3CE"/>
+    <circle cx="18" cy="26" r="10" fill="#146B3A"/>
+    <text x="18" y="30" font-family="system-ui" font-weight="700" font-size="10" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="36" y="22" font-family="system-ui" font-weight="700" font-size="10" fill="#146B3A">Bio &amp; Details</text>
+    <text x="36" y="36" font-family="system-ui" font-size="8.5" fill="#5B6B60">Completed</text>
+
+    <!-- Step 2 -->
+    <rect x="130" y="0" width="118" height="52" rx="6" fill="#ffffff" stroke="#146B3A" stroke-width="1.5"/>
+    <circle cx="148" cy="26" r="10" fill="#146B3A"/>
+    <text x="148" y="30" font-family="system-ui" font-weight="700" font-size="10" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="166" y="22" font-family="system-ui" font-weight="700" font-size="10" fill="#111827">Verification</text>
+    <text x="166" y="36" font-family="system-ui" font-size="8.5" fill="#146B3A" font-weight="600">In Progress</text>
+
+    <!-- Step 3 -->
+    <rect x="260" y="0" width="118" height="52" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+    <circle cx="278" cy="26" r="10" fill="#E5E7EB"/>
+    <text x="278" y="30" font-family="system-ui" font-weight="700" font-size="10" fill="#6B7280" text-anchor="middle">3</text>
+    <text x="296" y="22" font-family="system-ui" font-weight="700" font-size="10" fill="#6B7280">Documents</text>
+    <text x="296" y="36" font-family="system-ui" font-size="8.5" fill="#9CA3AF">Pending</text>
+
+    <!-- Step 4 -->
+    <rect x="390" y="0" width="120" height="52" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+    <circle cx="408" cy="26" r="10" fill="#E5E7EB"/>
+    <text x="408" y="30" font-family="system-ui" font-weight="700" font-size="10" fill="#6B7280" text-anchor="middle">4</text>
+    <text x="426" y="22" font-family="system-ui" font-weight="700" font-size="10" fill="#6B7280">Paystack</text>
+    <text x="426" y="36" font-family="system-ui" font-size="8.5" fill="#9CA3AF">Pending</text>
+  </g>
+
+  <!-- Document Upload preview area -->
+  <g transform="translate(45, 316)">
+    <rect x="0" y="0" width="510" height="92" rx="6" fill="#FAFCF9" stroke="#DCE7DF" stroke-dasharray="4 3"/>
+    <rect x="25" y="18" width="56" height="56" rx="6" fill="#E9F5EC"/>
+    <path d="M53 36 L53 54 M45 44 L53 36 L61 44" stroke="#146B3A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="96" y="39" font-family="system-ui" font-weight="700" font-size="12" fill="#111827">Secure Government ID / Document Verification</text>
+    <text x="96" y="56" font-family="system-ui" font-size="10" fill="#5B6B60">Automated file scanning, preview checks &amp; admin approval queue</text>
+    <rect x="390" y="32" width="100" height="28" rx="5" fill="#146B3A"/>
+    <text x="440" y="50" font-family="system-ui" font-weight="700" font-size="10" fill="#ffffff" text-anchor="middle">Upload File</text>
+  </g>
+</svg>
