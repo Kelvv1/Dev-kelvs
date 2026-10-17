@@ -219,7 +219,7 @@ h2 {
   line-height: 1.18;
 }
 .hero h1 .highlight {
-  color: var(--red);
+  color: #ffffff;
 }
 .lead {
   color: var(--muted);
